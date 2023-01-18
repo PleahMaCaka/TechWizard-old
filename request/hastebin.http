@@ -1,0 +1,4 @@
+POST https://hastebin.com/documents/
+Content-Type: text/plain
+
+Hello World!

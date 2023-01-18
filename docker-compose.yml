@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    command: node build/start.js
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - ADMIN_ID=${ADMIN_ID}
+      - ADMIN_GUILD_ID=${ADMIN_GUILD_ID}
+      - ADMIN_GUILD_CHANNEL_ID=${ADMIN_GUILD_CHANNEL_ID}

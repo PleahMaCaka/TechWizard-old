@@ -1,0 +1,7 @@
+# IDE
+.fleet
+.idea
+.vscode
+
+node_modules
+build
