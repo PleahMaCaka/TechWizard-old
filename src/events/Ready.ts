@@ -15,7 +15,7 @@ export class InteractionHandler {
         const admin = client.users.cache.get(process.env.ADMIN_ID!!)
 
         if (admin) await admin.send(`Ready!`)
-        else console.log("ADMIN_ID not found")
+        else console.log("Cannot find admin from users cache (ADMIN_ID)")
 
         console.log("Ready!")
     }
